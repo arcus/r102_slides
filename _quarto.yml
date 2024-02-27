@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!solutions/"
+    - "!exercises/"
+
+website:
+  title: "R102"
+  twitter-card:
+    card-style: summary_large_image
+    description: "Two hour workshop on getting started with Quarto"
+    image: "https://raw.githubusercontent.com/rstudio-conf-2022/get-started-quarto/main/preview.jpeg"
+  navbar:
+    background: "#447099"
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Slides
+        menu: 
+          - href: quarto_slides/missing_values_in_r.qmd
+            text: "Missing Values in R"
+          - href: quarto_slides/summary_stats_in_r.qmd
+            text: "Summary Stats in R"
+    right: 
+      - href: "https://arcus.chop.edu/i-want-to/arcus-education"
+        text: "Arcus Education"
+      - icon: github
+        href:  https://github.com/arcus/r102_slides
+  sidebar: 
+    style: docked
+    contents: 
+      - section: "Sessions"
+        contents: 
+          - href: quarto_slides/missing_values_in_r.qmd
+            text: "Missing Values in R"
+          - href: quarto_slides/summary_stats_in_r.qmd
+            text: "Summary Stats in R"
+
+format: 
+  chopr-revealjs  

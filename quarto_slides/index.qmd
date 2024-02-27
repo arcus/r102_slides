@@ -1,0 +1,14 @@
+---
+title: "R102"
+---
+
+## R102: MasteRing the Fundamentals in R
+
+Presented by: Arcus Education / Children's Hospital of Philadelphia (CHOP) R User Group
+
+Slide decks (click on any title):
+
+* [Missing Values in R](), presented 2024-03-04
+* Summary Statistics in R (slides coming soon)
+* Reshaping Data with tidyr (slides coming soon)
+* Data Types and Visualizations (slides coming soon)
